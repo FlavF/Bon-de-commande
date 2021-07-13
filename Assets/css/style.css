@@ -1,0 +1,37 @@
+.flex{
+display: flex;
+justify-content: space-around;
+}
+
+table, 
+td, 
+th{
+    text-align: center;
+    line-height: 1.5rem;
+    width:60rem;
+}
+
+.vert {
+    color: #048B9A;
+}
+
+.violet{
+    color:blueviolet
+}
+
+.right {
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+    color: royalblue;
+}
+
+p{
+    line-height:0.5rem;
+}
