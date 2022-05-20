@@ -10,7 +10,6 @@ class OrderDetailsController {
         $model = new OrderDetailsModel();
         $orders = $model -> getList();
         
-        
         //get list to show TVA
         $model = new OrderDetailsModel();
         $tva = $model -> getTVA();
@@ -18,10 +17,7 @@ class OrderDetailsController {
         //get list to show client
         $model = new OrderDetailsModel();
         $customer= $model -> getClient();
-        
-        
-        
-        
+    
         include "Views/orderDetails.phtml";
         
     }
